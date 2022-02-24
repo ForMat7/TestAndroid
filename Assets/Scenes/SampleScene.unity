@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 117249298496799432, guid: 21e8fc8b3663c3441ae1388d39089b0d, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 578464518373500957, guid: 21e8fc8b3663c3441ae1388d39089b0d, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.5
