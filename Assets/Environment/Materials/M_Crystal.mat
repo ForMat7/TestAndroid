@@ -10,8 +10,8 @@ Material:
   m_Name: M_Crystal
   m_Shader: {fileID: -6465566751694194690, guid: 3de7efe10945af040a52eca1c8e67084, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -21,6 +21,10 @@ Material:
     m_TexEnvs:
     - Texture2D_155896f18bdd404e80d6f185b9a7d361:
         m_Texture: {fileID: 2800000, guid: e33ced4b943185c4e873f39d97f1887f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_99fdb308661b4aebabbd8f684909e282:
+        m_Texture: {fileID: 2800000, guid: c171f66d0c1ed5c42ae71f3badc13f04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -80,10 +84,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_28f35a3341af43a1a2e50c2aa03707d8: 0.5
+    - Vector1_28f35a3341af43a1a2e50c2aa03707d8: 0.61
     - Vector1_3a11d43b307b4d0f974c1bdd235aa5a7: 0.75
-    - Vector1_7e1e153694be400da4df2457c01d7dd2: 0.1
-    - Vector1_e0fa0f2467dc4121afaf094f1cde559a: 0
+    - Vector1_7e1e153694be400da4df2457c01d7dd2: 0.6
+    - Vector1_d567ec6f0ded4fcbbc7a394482b37ef2: 0.516
+    - Vector1_e0fa0f2467dc4121afaf094f1cde559a: 0.991
     - Vector1_efeb20854ff44ad2bd7b119821cf61d3: 0
     - _AlphaClip: 0
     - _Blend: 0
@@ -112,8 +117,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_8112194cc7bc4e1ea9bdcc4db10d024a: {r: 0.8867924, g: 0, b: 0.81857735, a: 0}
-    - Color_a11ce57ba1aa47499f7f03dc4576f843: {r: 0.3207547, g: 0.8018868, b: 0.5913915, a: 0}
+    - Color_6efd5d1fedf44801bd525773a6e99bbb: {r: 1, g: 1, b: 1, a: 1}
+    - Color_8112194cc7bc4e1ea9bdcc4db10d024a: {r: 1, g: 1, b: 1, a: 0}
+    - Color_a11ce57ba1aa47499f7f03dc4576f843: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_df91cfef8aba4c799a8eed3cc1269303: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
