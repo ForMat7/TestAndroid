@@ -103,7 +103,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple
@@ -177,7 +177,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (1)
@@ -251,7 +251,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Name
       value: Roof_Temple (3)
@@ -325,7 +325,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Name
       value: Face_Temple (3)
@@ -399,7 +399,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (2)
@@ -473,7 +473,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Name
       value: Roof_Temple (1)
@@ -502,15 +502,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalPosition.x
@@ -559,11 +559,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: -5754084199372789682, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4058487860917934254, guid: 0ee008590bd9f0a418bbcce9a14c878b, type: 3}
+      objectReference: {fileID: -7107776025179521338, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (4)
@@ -592,15 +592,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalPosition.x
@@ -649,11 +649,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: -5754084199372789682, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4058487860917934254, guid: 0ee008590bd9f0a418bbcce9a14c878b, type: 3}
+      objectReference: {fileID: -7107776025179521338, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (5)
@@ -682,15 +682,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalPosition.x
@@ -739,11 +739,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: -5754084199372789682, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4058487860917934254, guid: 0ee008590bd9f0a418bbcce9a14c878b, type: 3}
+      objectReference: {fileID: -7107776025179521338, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (6)
@@ -772,15 +772,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_LocalPosition.x
@@ -829,11 +829,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: -5754084199372789682, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4058487860917934254, guid: 0ee008590bd9f0a418bbcce9a14c878b, type: 3}
+      objectReference: {fileID: -7107776025179521338, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
     - target: {fileID: 919132149155446097, guid: 0c14faf29b6089b4387d2ff97f8a1663, type: 3}
       propertyPath: m_Name
       value: Basement_Temple (3)
@@ -907,7 +907,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Name
       value: Roof_Temple (2)
@@ -981,7 +981,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Name
       value: Face_Temple (2)
@@ -1055,7 +1055,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Name
       value: Face_Temple
@@ -1129,7 +1129,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: ae2917d29b309dc488ab016eced7f745, type: 3}
       propertyPath: m_Name
       value: Roof_Temple
@@ -1203,7 +1203,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
+      objectReference: {fileID: 2100000, guid: f12a2ec60bcec4b428e7f6d75ced1d22, type: 2}
     - target: {fileID: 919132149155446097, guid: 8243395c57552f14ca52328ae5259dd4, type: 3}
       propertyPath: m_Name
       value: Face_Temple (1)
