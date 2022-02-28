@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93718425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: -2.3, z: 17.44}
+  m_LocalPosition: {x: 3.07, y: -2.3, z: 17.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7475907913888132372}
@@ -155,6 +155,10 @@ Transform:
   - {fileID: 543450653407260669}
   - {fileID: 543450653145428149}
   - {fileID: 93718426}
+  - {fileID: 543450652612201466}
+  - {fileID: 543450651848153993}
+  - {fileID: 543450652309237854}
+  - {fileID: 543450651701930559}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -330,12 +334,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (21)
@@ -364,7 +372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2688074
+      value: 7.44
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.y
@@ -372,7 +380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.508877
+      value: 16.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.w
@@ -410,13 +418,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (10)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -490,12 +502,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (4)
@@ -576,12 +592,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (20)
@@ -656,13 +676,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -696,7 +720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.207131
+      value: 7.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.y
@@ -704,7 +728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.392849
+      value: 14.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.w
@@ -742,13 +766,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (13)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -816,13 +844,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -896,12 +928,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (11)
@@ -988,13 +1024,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (8)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -1068,12 +1108,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (25)
@@ -1102,7 +1146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.9
+      value: 5.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1110,7 +1154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.179128
+      value: 14.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1148,13 +1192,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (14)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -1228,12 +1276,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (19)
@@ -1314,12 +1366,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (17)
@@ -1394,13 +1450,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (7)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -1474,12 +1534,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (12)
@@ -1507,20 +1571,32 @@ PrefabInstance:
       value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3241
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3241
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3241
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.82
+      value: 4.194138
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.36
+      value: -2.8055
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.82
+      value: 13.1241865
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.840699
+      value: 0.97933817
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1528,7 +1604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5415028
+      value: 0.20222963
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1540,7 +1616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -65.572
+      value: 23.335
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1554,13 +1630,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -1634,12 +1714,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (2)
@@ -1720,12 +1804,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena
@@ -1806,12 +1894,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (16)
@@ -1826,6 +1918,84 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
   m_PrefabInstance: {fileID: 1075884280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1130032145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7475907913888132372}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.91
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.78118664
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6242976
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 282.739
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
+    - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Name
+      value: Stone_Stele (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
+--- !u!4 &543450652612201466 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
+  m_PrefabInstance: {fileID: 1130032145}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1159466551
 PrefabInstance:
@@ -1892,12 +2062,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (22)
@@ -1972,13 +2146,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -2052,12 +2230,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (23)
@@ -2144,13 +2326,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -2224,12 +2410,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (9)
@@ -2404,12 +2594,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (13)
@@ -2496,13 +2690,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -2510,6 +2708,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
   m_PrefabInstance: {fileID: 1425450438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1432737717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7475907913888132372}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 266e39e38e93f4c4d82605bfeedf50f7, type: 2}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Name
+      value: ModularCircle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+--- !u!4 &543450652309237854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+  m_PrefabInstance: {fileID: 1432737717}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1450761522
 PrefabInstance:
@@ -2570,13 +2862,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (12)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -2650,12 +2946,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (18)
@@ -2736,12 +3036,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (24)
@@ -2822,12 +3126,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (1)
@@ -2908,12 +3216,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (14)
@@ -2988,13 +3300,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -3068,12 +3384,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (10)
@@ -3154,12 +3474,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (3)
@@ -3174,6 +3498,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
   m_PrefabInstance: {fileID: 1851133732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1860205666
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7475907913888132372}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.92399997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.92399997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.92399997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.94493
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23a78bdd746179c44af718a5f5ff8232, type: 2}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Name
+      value: ModularCircle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+--- !u!4 &543450651848153993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+  m_PrefabInstance: {fileID: 1860205666}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1977333525
 PrefabInstance:
@@ -3200,7 +3618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.4683657
+      value: 5.92
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3208,7 +3626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.825872
+      value: 19.69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3246,13 +3664,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (11)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -3332,13 +3754,17 @@ PrefabInstance:
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 007d603193f329540b8cbe960d118142, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 371248db8a19e9c48a7771271f391dde, type: 2}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_Name
       value: Stone_Stele (6)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 007d603193f329540b8cbe960d118142, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007d603193f329540b8cbe960d118142, type: 3}
@@ -3412,12 +3838,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (15)
@@ -3432,6 +3862,100 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
   m_PrefabInstance: {fileID: 2016447499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2031652308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7475907913888132372}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0861
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 266e39e38e93f4c4d82605bfeedf50f7, type: 2}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_Name
+      value: ModularCircle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 123
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+--- !u!4 &543450651701930559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: df872cf3a399cd340a75185f310ccfc4, type: 3}
+  m_PrefabInstance: {fileID: 2031652308}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1612596789459967564
 PrefabInstance:
@@ -3592,12 +4116,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (6)
@@ -3678,12 +4206,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (8)
@@ -3858,12 +4390,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (5)
@@ -3944,12 +4480,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.3
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_LightmapParameters
       value: 
       objectReference: {fileID: 15201, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -7511558181221131132, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82ccca407fcb2374c8207f45d0277e6f, type: 2}
     - target: {fileID: 919132149155446097, guid: 1ee313d4a8b0a9c40908138f43ff25b4, type: 3}
       propertyPath: m_Name
       value: WallArena (7)
